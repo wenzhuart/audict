@@ -10,7 +10,8 @@ import re
 from pathlib import Path
 import requests
 import argparse
-import autosub
+# import audict.autosub
+from audict import autosub
 
 
 SUPPORTED_VIDEO = ['.mp4', '.MP4', '.MOV', '.mov']
